@@ -3,33 +3,28 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 'ne.neupane@gmail.com',
+    href: 'mailto:ne.neupane@gmail.com',
   },
   {
     social: 'LinkedIn',
-    link: 'linkedin.com/in/gkos',
-    href: 'https://www.linkedin.com/in/gkos/',
+    link: 'linkedin.com/in/aaditya-neupane-944523287',
+    href: 'https://www.linkedin.com/in/aaditya-neupane-944523287/',
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
+    link: 'github.com/aadityane93',
+    href: 'https://github.com/aadityane93',
   },
   {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/<gkos>',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
-  },
-  {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    social: 'Kaggle',
+    link: 'kaggle.com/neupaneaaditya',
+    href: 'https://kaggle.com/neupaneaaditya/code',
   },
   {
     social: 'Website',
-    link: 'gkos.dev',
-    href: 'https://gkos.dev',
+    link: 'aadityaneupane.com',
+    href: 'https://aadityaneupane.com',
   },
 ];
 
@@ -40,7 +35,7 @@ const ContactCode = () => {
        tag: <a>production</a>
         </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
+        <span>Aaditya</span>&#58;
       </p>
       <p className={styles.line}>
         &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;

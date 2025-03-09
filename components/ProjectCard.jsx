@@ -43,16 +43,7 @@ const ProjectCard = ({ project }) => {
               Demo
             </a>
           )}
-          {project.scholar && (
-            <a
-              href={project.scholar}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              Paper
-            </a>
-          )}
+          
           {project.pypi && (
             <a
               href={project.pypi}

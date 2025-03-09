@@ -1,19 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Youtube Comment Bot",
-    "image": "https://imgur.com/bFXeKlG.png",
-    "description": "A bot that post the first comment on every new video of specified channels.",
-    "tags": ["Youtube", "Gmail", "Dropbox", "MySQL", "AWS", "RDS", "CircleCI", "Heroku"],
-    "source_code": "https://github.com/drkostas/Youtube-FirstCommentBot",
-    "demo": "https://www.youtube.com/channel/UC_nnPV1zXEqIP42HOiVdg1A"
+    "name": "Analysis with Fake Data on Stroke Dataset",
+    "image": "./Stroke2.jpg",
+    "description": "Data analysis and a brief study on the impact of fake data",
+    "tags": ["XGBoost", "SMOTE", "Matplotlib", "Pickle"],
+    "source_code": "https://www.kaggle.com/code/neupaneaaditya/stroke-predictor-and-fake-data-analysis"
   },
   {
     "id": 2,
-    "name": "Job Application Bot",
-    "image": "https://imgur.com/BX6C6ke.png",
-    "description": "A bot that automatically sends emails to new ads posted in any desired xe.gr search url.",
-    "tags": ["Gmail", "Dropbox", "MySQL", "AWS", "RDS", "CircleCI", "Heroku", "Crawler", "Scraper"],
-    "source_code": "https://github.com/drkostas/JobApplicationBot"
+    "name": "Laptop Price Estimator",
+    "image": "./laptop.jpeg",
+    "description": "Laptop price prediction using XGB regressor and Sklearn LinearRegression",
+    "tags": ["Sklearn", "Matplotlib", "XGBoost"],
+    "source_code": "https://www.kaggle.com/code/neupaneaaditya/laptop-price-estimator"
+  },
+  {
+    "id": 3,
+    "name": "Fashion Helper",
+    "image": "./fashion.jpeg",
+    "description": "Using Multi Regressor to predict clothes and pants colors using profile-of-body-metrics-and-fashion dataset",
+    "tags": ["Sklearn", "Matplotlib", "XGBoost"],
+    "source_code": "https://www.kaggle.com/code/neupaneaaditya/profile-of-body-metrics-and-fashion"
+  },
+  {
+    "id": 4,
+    "name": "Failure Prediction on a Metro Train Dataset",
+    "image": "./metro.jpg",
+    "description": "ML models for predictive maintenance",
+    "tags": ["Sklearn", "Matplotlib", "XGBoost"],
+    "source_code": "https://www.kaggle.com/code/neupaneaaditya/metropt3"
+  },
+  {
+    "id": 5,
+    "name": "Condition Monitoring of Hydraulic Systems",
+    "image": "./hydraulic.jpeg",
+    "description": "ML models to prevent failures of Hydraulic Systems",
+    "tags": ["Tensorflow", "XGBoost", "SVM"],
+    "source_code": "https://www.kaggle.com/code/neupaneaaditya/condition-monitoring-of-hydraulic-systems"
   }
+
+
 ]
