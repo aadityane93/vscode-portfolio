@@ -1,9 +1,27 @@
 [
   {
+    "id": 6,
+    "name": "Housing Price Estimator",
+    "image": "./housing.jpeg",
+    "description": "Valuation tool to estimate housing prices. Charts, Graphs, and Visualization of Gradient Descent, MSE, etc. ",
+    "tags": ["Sklearn", "Matplotlib", "Seaborn", "LinearRegression"],
+    "source_code": "https://github.com/aadityane93/Housing-Price-Prediction"
+  },
+
+  {
+    "id": 7,
+    "name": "Spam Email Filter",
+    "image": "./spam.png",
+    "description": "Email classifier tool to find spam emails using Natural Language Toolkit and Naive Bayes Classifier",
+    "tags": ["Nltk", "Bs4", "Sklearn"],
+    "source_code": "https://github.com/aadityane93/Spam-Filter/"
+  },
+
+  {
     "id": 1,
     "name": "Analysis with Fake Data on Stroke Dataset",
     "image": "./Stroke2.jpg",
-    "description": "Data analysis and a brief study on the impact of fake data",
+    "description": "Data analysis and a brief study on the impact of fake data in stroke dataset.",
     "tags": ["XGBoost", "SMOTE", "Matplotlib", "Pickle"],
     "source_code": "https://www.kaggle.com/code/neupaneaaditya/stroke-predictor-and-fake-data-analysis"
   },
@@ -19,7 +37,7 @@
     "id": 3,
     "name": "Fashion Helper",
     "image": "./fashion.jpeg",
-    "description": "Using Multi Regressor to predict clothes and pants colors using profile-of-body-metrics-and-fashion dataset",
+    "description": "Multi Regressor to predict clothing colors based on body metrics data",
     "tags": ["Sklearn", "Matplotlib", "XGBoost"],
     "source_code": "https://www.kaggle.com/code/neupaneaaditya/profile-of-body-metrics-and-fashion"
   },
@@ -39,6 +57,5 @@
     "tags": ["Tensorflow", "XGBoost", "SVM"],
     "source_code": "https://www.kaggle.com/code/neupaneaaditya/condition-monitoring-of-hydraulic-systems"
   }
-
 
 ]

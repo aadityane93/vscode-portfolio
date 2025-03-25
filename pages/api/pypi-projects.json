@@ -3,16 +3,40 @@
     "id": 1,
     "name": "Esp32 Mining Cluster",
     "image": "./esp32cluster.jpg",
-    "description": "A high-level sql command utility. Currently only MySQL is supported.",
-    "tags": ["Esp32", "Custom Firmware", "Blockchain"],
+    "description": "A fun project to understand Blockchain and Bitcoin. A cluster of 3 esp32s with custom firmware to mine bitcoin on public-pool.io.",
+    "tags": ["Esp32", "Bitcoin", "Blockchain"],
     "source_code": "https://github.com/aadityane93/ESP32"
   },
   {
     "id": 2,
     "name": "Bitcoin Price Tracker - Esp32",
     "image": "./price_tracker.jpg",
-    "description": "A high-level sql command utility. Currently only MySQL is supported.",
+    "description": "Custom circuit board with screen, sensors, and buttons to practice programs on esp32 microcontroller. Using Api to fetch bitcoin price.",
     "tags": ["Esp32", "C++", "Bitcoin"],
     "source_code": "https://github.com/aadityane93/ESP32"
+  },
+  {
+    "id": 3,
+    "name": "Snake-Game and Pong-Game",
+    "image": "./snake.png",
+    "description": "Snake Game and Pong-Game made with Python Turtle",
+    "tags": ["Turtle"],
+    "source_code": "https://github.com/aadityane93/python-turtle"
+  },
+  {
+    "id": 4,
+    "name": "Tik-Tak-Toe Game",
+    "image": "./tiktaktoe.png",
+    "description": "Tik-Tak-Toe Game made with Graphics library in Python",
+    "tags": ["Graphics"],
+    "source_code": "https://github.com/aadityane93/py/blob/main/tic%20tac%20toe.py"
+  },
+  {
+    "id": 5,
+    "name": "Password Manager",
+    "image": "./password-manager.jpg",
+    "description": "Password Manager made with Tkinter",
+    "tags": ["Tkinter"],
+    "source_code": "https://github.com/aadityane93/py/blob/main/tic%20tac%20toe.py"
   }
 ]

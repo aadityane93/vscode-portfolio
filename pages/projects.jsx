@@ -10,7 +10,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
     <>
       <h3>My Open Source Works</h3>
       <br/>
-      <center><h4>Projects</h4></center>
+      <center><h4>Major Projects</h4></center>
       <hr/>
       <div className={styles.container}>
         {ml_projects.map((project) => (
@@ -18,7 +18,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>Machine Learning Notebooks</h4></center>
+      <center><h4>Machine Learning - Jupyter/Colab/Kaggle Notebooks</h4></center>
       <hr/>
       <div className={styles.container}>
         {bots_projects.map((project) => (
@@ -26,7 +26,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>Simple Programs</h4></center>
+      <center><h4>Simple Projects / Programs</h4></center>
       <hr/>
       <div className={styles.container}>
         {pypi_projects.map((project) => (
