@@ -16,6 +16,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         {ml_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
+        
       </div>
       <br/>
       <center><h4>Machine Learning - Jupyter/Colab/Kaggle Notebooks</h4></center>

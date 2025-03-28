@@ -35,6 +35,5 @@ yarn-error.log*
 .history
 .vscode
 .env.local
-public/Resume.pdf
 .env.local.example
 .gitignore
