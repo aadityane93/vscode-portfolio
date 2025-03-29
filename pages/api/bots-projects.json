@@ -1,14 +1,5 @@
 [
   {
-    "id": 6,
-    "name": "Housing Price Estimator",
-    "image": "./housing.jpeg",
-    "description": "Valuation tool to estimate housing prices. Charts, Graphs, and Visualization of Gradient Descent, MSE, etc. ",
-    "tags": ["Sklearn", "Matplotlib", "Seaborn", "LinearRegression"],
-    "source_code": "https://github.com/aadityane93/Housing-Price-Prediction"
-  },
-
-  {
     "id": 7,
     "name": "Spam Email Filter",
     "image": "./spam.png",
@@ -56,6 +47,14 @@
     "description": "ML models to prevent failures of Hydraulic Systems",
     "tags": ["Tensorflow", "XGBoost", "SVM"],
     "source_code": "https://www.kaggle.com/code/neupaneaaditya/condition-monitoring-of-hydraulic-systems"
+  },
+  {
+    "id": 6,
+    "name": "Housing Price Estimator",
+    "image": "./housing.jpeg",
+    "description": "Valuation tool to estimate housing prices. Charts, Graphs, and Visualization of Gradient Descent, MSE, etc. ",
+    "tags": ["Sklearn", "Matplotlib", "Seaborn", "LinearRegression"],
+    "source_code": "https://github.com/aadityane93/Housing-Price-Prediction"
   }
 
 ]
