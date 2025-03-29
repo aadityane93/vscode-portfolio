@@ -25,6 +25,15 @@
     "tags": ["TFlite", "OpenCV", "Numpy"],
     "source_code": "https://github.com/aadityane93/Quality-assurance-with-AI-fischertechnik"
   
+  },
+  {
+    "id": 3,
+    "name": "Anti-Distraction Extension",
+    "image": "study_hard.png",
+    "description": "Chrome Extension that removes distractive videos on Youtube with \"Study Hard\" Phrase",
+    "tags": ["JavaScript"],
+    "source_code": "https://github.com/aadityane93/Quality-assurance-with-AI-fischertechnik"
+  
   }
 
 ]

@@ -24,17 +24,20 @@ const GithubPage = () => {
         </div>
         <div style={{ padding: '20px' }}></div>
         <h1 style={{ marginBottom: '2rem' }}>GitHub Contributions</h1>
-        <div>
+        <div style={{ marginLeft: '7rem' }}>
+          
         <iframe 
           src="https://ghchart.rshah.org/aadityane93" 
           style={{ 
             border: 0, 
-            width: '60%',
+            width: '100%',
             height: '400px', 
-            maxWidth: '1500px'
+            maxWidth: '800px'
           }} 
         ></iframe>
+        
       </div>
+      
       </div>
 
     </>

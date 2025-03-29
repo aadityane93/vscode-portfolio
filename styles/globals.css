@@ -9,11 +9,11 @@
 }
 
 /* Tags */
-.PyTorch {
+.Streamlit {
   border: 0.1rem solid rgb(238, 89, 3);
 }
 
-.PyTorch:hover {
+.Streamlit:hover {
   background: rgba(238, 89, 3, 0.25);
 }
 
@@ -25,19 +25,19 @@
   background: rgba(50, 85, 213, 0.25);
 }
 
-.SegFormer {
-  border: 0.1rem solid rgb(0, 0, 0);
+.Rasa {
+  border: 0.1rem solid rgb(53, 202, 102);
 }
 
-.SegFormer:hover {
-  background: rgba(0, 0, 0, 0.25);
+.Rasa:hover {
+  background: rgba(243, 59, 59, 0.25);
 }
 
-.Semantic-Segmentation {
+.Matplotlib {
   border: 0.1rem solid rgb(234, 69, 184);
 }
 
-.Semantic-Segmentation:hover {
+.Matplotlib:hover {
   background: rgba(234, 69, 184, 0.25);
 }
 
@@ -49,84 +49,84 @@
   background: rgba(243, 164, 7, 0.25);
 }
 
-.Reinforcement-Learning {
+.SMOTE {
   border: 0.1rem solid rgb(124, 182, 237);
 }
 
-.Reinforcement-Learning:hover {
+.SMOTE:hover {
   background: rgba(124, 182, 237, 0.25);
 }
 
-.Medical-Imaging {
+.Express\.js {
   border: 0.1rem solid rgb(72, 86, 197);
 }
 
-.Medical-Imaging:hover {
+.Express\.js:hover {
   background: rgba(72, 86, 197 0.25);
 }
 
-.SpaCy {
+.SocketIO {
   border: 0.1rem solid rgb(0, 0, 0);
 }
 
-.SpaCy:hover {
+.SocketIO:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 
-.HuggingFace {
-  border: 0.1rem solid rgb(238, 250, 2);
+.TFlite {
+  border: 0.1rem solid rgb(216, 20, 36);
 }
 
-.HuggingFace:hover {
-  background: rgba(238, 250, 2, 0.25);
+.TFlite:hover {
+  background: rgba(243, 15, 15, 0.25);
 }
 
-.Transformers {
+.Sklearn {
   border: 0.1rem solid rgb(13, 250, 49);
 }
 
-.Transformers:hover {
+.Sklearn:hover {
   background: rgba(13, 250, 49 0.25);
 }
 
-.BERT {
+.Seaborn {
   border: 0.1rem solid rgb(227, 250, 135);
 }
 
-.BERT:hover {
+.Seaborn:hover {
   background: rgba(227, 250, 135, 0.25);
 }
 
-.Pandas {
+.Nltk {
   border: 0.1rem solid rgb(0, 54, 216);
 }
 
-.Pandas:hover {
+.Nltk:hover {
   background: rgba(0, 54, 216, 0.25);
 }
 
-.Numpy {
+.LinearRegression {
   border: 0.1rem solid rgb(251, 199, 66);
 }
 
-.Numpy:hover {
+.LinerRegression:hover {
   background: rgba(251, 199, 66, 0.25);
 }
 
-.Scipy {
+.Numpy {
   border: 0.1rem solid rgb(5, 194, 247);
 }
 
-.Scipy:hover {
+.Numpy:hover {
   background: rgba(5, 194, 247, 0.25);
 }
 
-.Bayesian-Optimization {
-  border: 0.1rem solid rgb(0, 0, 0);
+.Bs4 {
+  border: 0.1rem solid rgb(218, 20, 20);
 }
 
-.Bayesian-Optimization:hover {
-  background: rgba(0, 0, 0, 0.25);
+.Bs4:hover {
+  background: rgba(235, 20, 20, 0.25);
 }
 
 .XGBoost {
@@ -145,59 +145,59 @@
   background: rgba(0, 0, 0, 0.25);
 }
 
-.Neural-Network {
+.SVM {
   border: 0.1rem solid rgb(170, 170, 248);
 }
 
-.Neural-Network:hover {
+.SVM:hover {
   background: rgba(170, 170, 248, 0.25);
 }
 
-.K-Means {
-  border: 0.1rem solid rgb(0, 0, 0);
+.Esp32 {
+  border: 0.1rem solid rgb(5, 226, 53);
 }
 
-.K-Means:hover {
-  background: rgba(0, 0, 0, 0.25);
+.Esp32:hover {
+  background: rgba(197, 8, 8, 0.25);
 }
 
-.Apache-Spark {
+.Bitcoin {
   border: 0.1rem solid rgb(170, 170, 248);
 }
 
-.Apache-Spark:hover {
+.Bitcoin:hover {
   background: rgba(170, 170, 248, 0.25);
 }
 
-.Social-Networks {
-  border: 0.1rem solid rgb(8, 0, 255);
+.Blockchain {
+  border: 0.1rem solid rgb(41, 162, 231);
 }
 
-.Social-Networks:hover {
-  background: rgba(8, 0, 255, 0.25);
+.Blockchain:hover {
+  background: rgba(137, 133, 247, 0.25);
 }
 
-.Community-Detection {
-  border: 0.1rem solid rgb(0, 0, 0);
+.C\+\+ {
+  border: 0.1rem solid rgb(189, 238, 11);
 }
 
-.Community-Detection:hover {
-  background: rgba(0, 0, 0, 0.25);
+.C\+\+:hover {
+  background: rgba(199, 248, 22, 0.25);
 }
 
-.GraphFrames {
-  border: 0.1rem solid rgb(0, 0, 0);
+.Turtle {
+  border: 0.1rem solid rgb(252, 135, 135);
 }
 
-.GraphFrames:hover {
-  background: rgba(0, 0, 0, 0.25);
+.Turtle:hover {
+  background: rgba(241, 145, 145, 0.25);
 }
 
-.MySQL {
+.Graphics {
   border: 0.1rem solid rgb(144, 151, 252);
 }
 
-.MySQL:hover {
+.Graphics:hover {
   background: rgba(144, 151, 252, 0.25);
 }
 
@@ -209,20 +209,20 @@
   background: rgba(239, 113, 113, 0.25);
 }
 
-.LSTMs {
-  border: 0.1rem solid rgb(0, 0, 0);
+.Tkinter {
+  border: 0.1rem solid rgb(43, 209, 238);
 }
 
-.LSTMs:hover {
-  background: rgba(0, 0, 0, 0.25);
+.Tkinter:hover {
+  background: rgba(19, 126, 214, 0.25);
 }
 
-.Multivariate-Time-Series {
-  border: 0.1rem solid rgb(0, 0, 0);
+.JavaScript {
+  border: 0.1rem solid rgba(243, 239, 20, 0.925);
 }
 
-.Multivariate-Time-Series:hover {
-  background: rgba(0, 0, 0, 0.25);
+.JavaScript:hover {
+  background: rgba(225, 240, 12, 0.25);
 }
 
 .Instagram {

@@ -2,7 +2,6 @@ import ProjectCard from '../components/ProjectCard';
 import { getMLProjects } from './api/ml-projects';
 import { getBotsProjects } from './api/bots-projects';
 import { getPyPiProjects } from './api/pypi-projects';
-import { getMiscProjects } from './api/misc-projects';
 import styles from '../styles/ProjectsPage.module.css';
 
 const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects }) => {
@@ -44,10 +43,9 @@ export async function getStaticProps() {
   const ml_projects = getMLProjects();
   const bots_projects = getBotsProjects();
   const pypi_projects = getPyPiProjects();
-  const misc_projects = getMiscProjects();
 
   return {
-    props: { title: 'Projects', ml_projects, bots_projects, pypi_projects, misc_projects },
+    props: { title: 'Projects', ml_projects, bots_projects, pypi_projects },
   };
 }
 
