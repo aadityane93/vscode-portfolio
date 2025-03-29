@@ -1,10 +1,10 @@
 import ProjectCard from '../components/ProjectCard';
 import { getMLProjects } from './api/ml-projects';
-import { getBotsProjects } from './api/bots-projects';
-import { getPyPiProjects } from './api/pypi-projects';
+import { getnotebooks } from './api/notebooks';
+import { simpleProjects } from './api/simple-projects';
 import styles from '../styles/ProjectsPage.module.css';
 
-const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects }) => {
+const ProjectsPage = ({ ml_projects, notebooks, simple_projects}) => {
   return (
     <>
       <h3>My Open Source Works</h3>
@@ -21,7 +21,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
       <center><h4>Machine Learning - Jupyter/Colab/Kaggle Notebooks</h4></center>
       <hr/>
       <div className={styles.container}>
-        {bots_projects.map((project) => (
+        {notebooks.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
@@ -29,7 +29,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
       <center><h4>Simple Projects / Programs</h4></center>
       <hr/>
       <div className={styles.container}>
-        {pypi_projects.map((project) => (
+        {simple_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
@@ -41,11 +41,11 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
 
 export async function getStaticProps() {
   const ml_projects = getMLProjects();
-  const bots_projects = getBotsProjects();
-  const pypi_projects = getPyPiProjects();
+  const notebooks = getnotebooks();
+  const simple_projects = simpleProjects();
 
   return {
-    props: { title: 'Projects', ml_projects, bots_projects, pypi_projects },
+    props: { title: 'Projects', ml_projects, notebooks, simple_projects },
   };
 }
 
