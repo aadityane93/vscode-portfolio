@@ -28,20 +28,26 @@ export default function HomePage() {
                     <span key='Tensorflow' className='Tensorflow'>
                       Tensorflow
                     </span>
+                    <span key='Databases' className='Databases'>
+                      Databases
+                    </span>
                     <span key='SQL' className='SQL'>
                       SQL
                     </span>
                     <span key='Software-Design' className='Software-Design'>
                       Software-Engineering
                     </span>
-                    <span key='Bots' className='Bots'>
+                    <span key='Machine-Learning' className='Machine-Learning'>
                       Machine-Learning
                     </span>
-                    <span key='SQL' className='SQL'>
-                      LaTeX
+                    <span key='MLOps' className='MLOps'>
+                      MLOps
                     </span>
-                    <span key='Bots' className='Bots'>
+                    <span key='Web-Development' className='Web-Development'>
                       Web-Development
+                    </span>
+                    <span key='LaTeX' className='LaTeX'>
+                      LaTeX
                     </span>
                   </div>
 
@@ -50,13 +56,13 @@ export default function HomePage() {
                   <h4>Interests</h4>
 
                   <div className={styles.tags}>
-                    <span key='Research' className='Research'>
+                    <span key='Physical-AI' className='Physical-AI'>
                       Physical-AI
                     </span>
-                    <span key='Computer-Vision' className='Computer-Vision'>
+                    <span key='Medical-AI' className='Medical-AI'>
                       Medical-AI
                     </span>
-                    <span key='Tensorflow' className='Tensorflow'>
+                    <span key='Industrial-AI' className='Industrial-AI'>
                       Industrial-AI
                     </span>
 
