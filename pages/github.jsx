@@ -10,7 +10,7 @@ const GithubPage = () => {
         color: '#c9d1d9'
       }}>
         <div>
-          <a href="https://github.com/aadityane93">
+          <a href="https://github.com/aadityane93" target="_blank" rel="noopener noreferrer">
             <img 
               style={{ height: 'auto' }} 
               alt="" 
