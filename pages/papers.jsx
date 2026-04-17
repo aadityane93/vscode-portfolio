@@ -14,7 +14,7 @@ const PapersPage = ({ papers }) => {
               <p><strong>Abstract:</strong> Report on machine learning models for Predictive Maintainance of Hydraulic Systems</p>
               <div className={styles.cta}>
                 <a
-                  href="/short_report.pdf"
+                  href="/vscode-portfolio/short_report.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.underline}
@@ -38,7 +38,7 @@ const PapersPage = ({ papers }) => {
                   catchment area, discharge, and tank design.</p>
               <div className={styles.cta}>
                 <a
-                  href="/scientific_paper.pdf"
+                  href="/vscode-portfolio/scientific_paper.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.underline}

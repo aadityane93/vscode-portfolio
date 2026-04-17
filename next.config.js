@@ -1,7 +1,8 @@
 module.exports = {
   output: 'export',
-  basePath: '',
-  assetPrefix: '',
+  trailtrailingSlash: true,
+  basePath: '/vscode-portfolio',
+  assetPrefix: '/vscode-portfolio/',
   images: {
     unoptimized: true,
     domains: [
