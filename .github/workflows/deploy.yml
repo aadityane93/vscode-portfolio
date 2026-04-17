@@ -33,6 +33,13 @@ jobs:
       - name: Build static site
         run: npm run build
 
+      - name: Debug build output
+        run: |
+          echo "=== Files in out/ ==="
+          ls -R out/ | head -50
+          echo "=== Checking _next folder ==="
+          ls -R out/_next/ 2>/dev/null | head -30 || echo "XX _next folder missing!"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
