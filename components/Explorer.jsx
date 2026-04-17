@@ -65,11 +65,12 @@ const Explorer = () => {
           {explorerItems.map((item) => (
             <Link href={item.path} key={item.name}>
               <div className={styles.file}>
-                <Image
-                  src={`/${item.icon}`}
+                <img
+                  src={`/vscode-portfolio/${item.icon}`}
                   alt={item.name}
                   height={18}
                   width={18}
+                  className={styles.icon}  // optional: add for consistent styling
                 />{' '}
                 <p>{item.name}</p>
               </div>
