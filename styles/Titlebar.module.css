@@ -46,14 +46,50 @@
 .minimize {
   background: #f1fa8c;
   margin-left: auto;
+  animation: glowYellow 2s ease-in-out infinite;
 }
 
 .maximize {
   background: #50fa7b;
+  animation: glowGreen 2s ease-in-out infinite;
 }
 
 .close {
   background: #ff5555;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px #ff5555, 0 0 10px #ff5555;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 15px #ff5555, 0 0 25px #ff5555;
+    opacity: 0.2;
+  }
+}
+
+@keyframes glowYellow {
+  0%, 100% {
+    box-shadow: 0 0 5px #f1fa8c, 0 0 10px #f1fa8c;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 15px #f1fa8c, 0 0 25px #f1fa8c;
+    opacity: 0.2;
+  }
+}
+
+@keyframes glowGreen {
+  0%, 100% {
+    box-shadow: 0 0 5px #50fa7b, 0 0 10px #50fa7b;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 15px #50fa7b, 0 0 25px #50fa7b;
+    opacity: 0.2;
+  }
 }
 
 @media screen and (max-width: 900px) {
