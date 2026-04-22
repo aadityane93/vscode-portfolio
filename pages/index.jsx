@@ -13,7 +13,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Aaditya Neupane</h1>
-            <h6 className={styles.bio}>AI Student | Research Assistant</h6>
+            <h6 className={styles.bio}>Intern | Research Assistant | AI Student</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -21,6 +21,9 @@ export default function HomePage() {
                   <div className={styles.tags}>
                     <span key='Research' className='Research'>
                       Research
+                    </span>
+                    <span key='GenAI' className='GenAI'>
+                      GenAI
                     </span>
                     <span key='Computer-Vision' className='Computer-Vision'>
                       Computer-Vision
@@ -62,8 +65,8 @@ export default function HomePage() {
                     <span key='Medical-AI' className='Medical-AI'>
                       Medical-AI
                     </span>
-                    <span key='Industrial-AI' className='Industrial-AI'>
-                      Industrial-AI
+                    <span key='AgenticAI' className='AgenticAI'>
+                      Agentic-AI
                     </span>
 
                   </div>                  
