@@ -33,6 +33,119 @@
   background: rgba(243, 59, 59, 0.25);
 }
 
+.TensorFlow {
+  border: 0.1rem solid rgb(53, 202, 102);
+}
+
+.TensorFlow:hover {
+  background: rgba(48, 227, 164, 0.25);
+}
+
+.Nvidia-Jetracer {
+  border: 0.1rem solid rgb(202, 115, 53);
+}
+
+.Nvidia-Jetracer:hover {
+  background: rgba(221, 12, 155, 0.25);
+}
+
+.PyTorch {
+  border: 0.1rem solid rgb(196, 241, 19);
+}
+
+.PyTorch:hover {
+  background: rgba(12, 22, 221, 0.25);
+}
+
+.PyTorch:hover {
+  background: rgba(12, 22, 221, 0.25);
+}
+
+.Docker {
+  border: 0.1rem solid rgb(255, 0, 234);
+}
+
+.Docker:hover {
+  background: rgba(9, 168, 236, 0.651);
+}
+
+.React {
+  border: 0.1rem solid rgba(255, 217, 0, 0.907);
+}
+
+.React:hover {
+  background: rgba(9, 236, 32, 0.651);
+}
+
+.Vite {
+  border: 0.1rem solid rgba(230, 177, 139, 0.907);
+}
+
+.Vite:hover {
+  background: rgba(9, 236, 32, 0.651);
+}
+
+.Nginx {
+  border: 0.1rem solid rgba(14, 128, 228, 0.907);
+}
+
+.Nginx:hover {
+  background: rgba(9, 236, 32, 0.651);
+}
+
+.FastAPI {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+
+.FastAPI:hover {
+  background: rgba(255, 0, 0, 0.25);
+}
+
+.Pandas {
+  border: 0.1rem solid rgb(43, 150, 129);
+}
+
+.Pandas:hover {
+  background: rgba(0, 255, 0, 0.25);
+}
+
+.HTML {
+  border: 0.1rem solid rgb(0, 255, 0);
+}
+
+.HTML:hover {
+  background: rgba(0, 255, 0, 0.25);
+}
+
+.CSS {
+  border: 0.1rem solid rgb(0, 191, 255);
+}
+
+.CSS:hover {
+  background: rgba(0, 255, 0, 0.25);
+}
+
+.KNN {
+  border: 0.1rem solid rgb(140, 0, 255);
+}
+
+.KNN:hover {
+  background: rgba(89, 254, 89, 0.25);
+}
+
+.RandomForest {
+  border: 0.1rem solid rgb(0, 191, 255);
+}
+
+.RandomForest:hover {
+  background: rgba(24, 113, 143, 0.575);
+}
+
+.CSS:hover {
+  background: rgba(0, 255, 0, 0.25);
+}
+
+
 .Matplotlib {
   border: 0.1rem solid rgb(234, 69, 184);
 }
@@ -58,19 +171,19 @@
 }
 
 .Express\.js {
-  border: 0.1rem solid rgb(72, 86, 197);
+  border: 0.1rem solid rgb(0, 255, 55);
 }
 
 .Express\.js:hover {
-  background: rgba(72, 86, 197 0.25);
+  background: rgba(124, 182, 237, 0.25);
 }
 
 .SocketIO {
-  border: 0.1rem solid rgb(0, 0, 0);
+  border: 0.1rem solid rgb(245, 0, 0);
 }
 
 .SocketIO:hover {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(235, 166, 166, 0.25);
 }
 
 .TFlite {
@@ -130,19 +243,19 @@
 }
 
 .XGBoost {
-  border: 0.1rem solid rgb(0, 0, 0);
+  border: 0.1rem solid rgb(180, 235, 162);
 }
 
 .XGBoost:hover {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(211, 248, 152, 0.25);
 }
 
 .Logistic-Regression {
-  border: 0.1rem solid rgb(0, 0, 0);
+  border: 0.1rem solid rgb(237, 41, 41);
 }
 
 .Logistic-Regression:hover {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(122, 86, 86, 0.25);
 }
 
 .SVM {
@@ -594,11 +707,11 @@
 }
 
 .Python {
-  border: 0.1rem solid rgb(50, 25, 162);
+  border: 0.1rem solid rgb(136, 112, 244);
 }
 
 .Python:hover {
-  background: rgba(50, 25, 162, 0.25);
+  background: rgba(62, 23, 234, 0.25);
 }
 
 .Research {

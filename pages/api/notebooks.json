@@ -1,4 +1,12 @@
 [
+    {
+    "id": 8,
+    "name": "Sperm Classification",
+    "image": "./sperm.jpg",
+    "description": "Classification of Normal, Abnormal, Non-sperm cells using various ML models and CNN with transfer learning",
+    "tags": ["Pandas", "Sklearn", "KNN", "SVM", "RandomForest"],
+    "source_code": "https://github.com/aadityane93/Is_it_a_Sperm"
+  },
   {
     "id": 7,
     "name": "Spam Email Filter",
