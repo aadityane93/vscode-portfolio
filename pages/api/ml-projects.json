@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "Titanic Survival Prediction",
-    "image": "Titanic.jpg",
+    "image": "./Titanic.jpg",
     "description": "ML based fullstack Web App that Predicts the likelihood of survival for passengers on the Titanic.",
     "tags": ["Docker", "React", "Vite", "Nginx", "FastAPI", "Pandas"],
     "source_code": "https://github.com/Ajayi108/Titanic-Survival-Prediction-App"
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Autonomous Vehicles System",
-    "image": "car2.jpg",
+    "image": "./car2.jpg",
     "description": "Computer Vision and Deep Learning based system for traffic management of autonomous vehicles",
     "tags": ["PyTorch", "TensorFlow", "OpenCV", "Nvidia-Jetracer"],
     "source_code": "https://github.com/aadityane93/Autonomous_Vehicles_System"
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": " Stroke Predictor WebApp",
-    "image": "Stroke.jpg",
+    "image": "./Stroke.jpg",
     "description": "Stroke Predictor is a web app with chatbot that helps users predict their risk of having a stroke.",
     "tags": ["Streamlit", "Rasa", "XGBoost", "Matplotlib", "SMOTE"],
     "source_code": "https://github.com/aadityane93/Stroke-Predictor-And-Data-Analysis"
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": " Chatbot for University canteen",
-    "image": "Chatbot.jpg",
+    "image": "./Chatbot.jpg",
     "description": "Chatbot that lets students and staffs order food from canteen",
     "tags": ["Python", "Express.js", "SocketIO"],
     "source_code": "https://github.com/aadityane93/Chatbot-for-Unversity-canteen"
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Quality Assurance With AI",
-    "image": "sortingline.jpeg",
+    "image": "./sortingline.jpeg",
     "description": "Object Detection and Image Classification models for Fischertechik Sorting Line",
     "tags": ["TFlite", "OpenCV", "Numpy"],
     "source_code": "https://github.com/aadityane93/Quality-assurance-with-AI-fischertechnik"
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Anti-Distraction Extension",
-    "image": "study_hard.png",
+    "image": "./study_hard.png",
     "description": "Chrome Extension that removes distractive videos on Youtube with \"Study Hard\" Phrase",
     "tags": ["JavaScript", "HTML", "CSS"],
     "source_code": "https://github.com/aadityane93/Quality-assurance-with-AI-fischertechnik"
