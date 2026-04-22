@@ -2,7 +2,7 @@
     {
     "id": 1,
     "name": "Titanic Survival Prediction",
-    "image": "Titanic.jpg",
+    "image": "Titanic_.jpg",
     "description": "ML based fullstack Web App that Predicts the likelihood of survival for passengers on the Titanic.",
     "tags": ["Docker", "React", "Vite", "Nginx", "FastAPI", "Pandas"],
     "source_code": "https://github.com/Ajayi108/Titanic-Survival-Prediction-App"
