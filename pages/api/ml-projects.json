@@ -1,5 +1,24 @@
 [
+
+  {
+    "id": 8,
+    "name": "Multi Agent Software Engineering Team",
+    "image": "agents.jpg",
+    "description": "(In Development) An agentic AI harness that lets user create Multi Agent Software Engineering Team. ",
+    "tags": ["Python", "LangGraph", "FastAPI", "Pydantic-Ai", "MCP", "TypeScript", "Vite"],
+    "source_code": "https://github.com/aadityane93/Multi_Agent_Software_Engineering_Team"
+
+  },
     {
+    "id": 7,
+    "name": "Industrial Rag",
+    "image": "rag.jpg",
+    "description": "A locally running Gemma4 based knowledge base that lets users ask questions using RAG, CAG, and semantic caching.",
+    "tags": ["Python", "RAG", "CAG", "Gemma4", "LangChain", "ChromaDB", "Ollama"],
+    "source_code": "https://github.com/aadityane93/Local_Industrial_Rag"
+
+  },
+  {
     "id": 1,
     "name": "Titanic Survival Prediction",
     "image": "Titanic_.jpg",
