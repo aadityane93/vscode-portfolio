@@ -49,12 +49,103 @@
   background: rgba(221, 12, 155, 0.25);
 }
 
-.PyTorch {
+.LangGraph{
+  border: 0.1rem solid rgb(202, 115, 53);
+}
+
+.LangGraph:hover {
+  background: rgba(221, 12, 155, 0.25);
+}
+
+.Pydantic-Ai{
+  border: 0.1rem solid rgb(0, 255, 72);
+}
+
+.Pydantic-Ai:hover {
+  background: rgba(195, 248, 7, 0.25);
+}
+
+.MCP{
+  border: 0.1rem solid rgb(219, 40, 255);
+}
+
+.MCP:hover {
+  background: rgba(249, 143, 235, 0.25);
+}
+
+.TypeScript {
+  border: 0.1rem solid rgb(20, 177, 255);
+}
+
+.TypeScript:hover {
+  background: rgba(75, 255, 255, 0.25);
+}
+
+.RAG{
+  border: 0.1rem solid rgb(61, 255, 116);
+}
+
+.RAG {
+  background: rgba(253, 255, 245, 0);
+}
+
+.CAG{
+  border: 0.1rem solid rgb(219, 40, 255);
+}
+
+.CAG:hover {
+  background: rgba(249, 143, 235, 0.25);
+}
+
+.LangChain {
+  border: 0.1rem solid rgb(20, 177, 255);
+}
+
+.LangChain:hover {
+  background: rgba(75, 255, 255, 0.25);
+}
+
+.Gemma4 {
   border: 0.1rem solid rgb(196, 241, 19);
 }
 
-.PyTorch:hover {
+.Gemma4:hover {
   background: rgba(12, 22, 221, 0.25);
+}
+
+.ChromaDB {
+  border: 0.1rem solid rgb(255, 0, 234);
+}
+
+.ChromaDB:hover {
+  background: rgba(9, 168, 236, 0.651);
+}
+
+.Ollama {
+  border: 0.1rem solid rgba(255, 217, 0, 0.907);
+}
+
+.Ollama:hover {
+  background: rgba(9, 236, 32, 0.651);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PyTorch {
+  border: 0.1rem solid rgb(196, 241, 19);
 }
 
 .PyTorch:hover {
