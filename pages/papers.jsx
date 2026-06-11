@@ -4,7 +4,7 @@ import styles from '../styles/PapersPage.module.css';
 const PapersPage = ({ papers }) => {
   return (
     <>
-      <h3>Articles | Papers | Reports</h3>
+      <h3>Articles | Papers | Reports | Presentations</h3>
       <br/>
       <hr/>
       <div className={styles.container}>
