@@ -47,6 +47,10 @@
   animation: slideToClose 12s ease-in-out infinite;
 }
 
+.mobileCloseHint {
+  display: none;
+}
+
 .windowButtons {
   flex: 1;
   display: flex;
@@ -131,6 +135,29 @@
   }
 }
 
+@keyframes slideToCloseMobile {
+  0%, 18% {
+    opacity: 0;
+    transform: translate(-30vw, -50%);
+  }
+  30% {
+    opacity: 0;
+    transform: translate(-4vw, -50%);
+  }
+  34% {
+    opacity: 1;
+    transform: translate(-4vw, -50%);
+  }
+  78% {
+    opacity: 1;
+    transform: translate(0, -50%);
+  }
+  88%, 100% {
+    opacity: 0;
+    transform: translate(0, -50%);
+  }
+}
+
 @media screen and (max-width: 900px) {
   .items p {
     display: none;
@@ -143,5 +170,52 @@
 @media screen and (max-width: 600px) {
   .closeHint {
     display: none;
+  }
+
+  .mobileCloseHint {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 3rem;
+    z-index: 2;
+    color: #ffffff8a;
+    font-size: 0.58rem;
+    font-weight: 700;
+    line-height: 1;
+    pointer-events: none;
+    text-shadow: 0 1px 2px #000, 0 0 8px rgba(255, 85, 85, 0.65);
+    transform: translate(-30vw, -50%);
+    white-space: nowrap;
+    animation: slideToCloseMobile 8s ease-in-out infinite;
+  }
+
+  .titlebar {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .title {
+    flex: 0 1 auto;
+    max-width: 45vw;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.72rem;
+  }
+
+  .windowButtons {
+    flex: 0 0 auto;
+    gap: 0.35rem;
+  }
+
+  .windowButtons * {
+    width: 9px;
+    height: 9px;
+    margin: 0;
   }
 }
