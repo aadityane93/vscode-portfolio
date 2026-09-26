@@ -12,7 +12,9 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Aaditya Neupane</h1>
+            <h1 className={styles.name}>
+              <span>Aaditya</span>{' '}<span>Neupane</span>
+            </h1>
             <h6 className={styles.bio}>Intern | Research Assistant | AI Student</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
