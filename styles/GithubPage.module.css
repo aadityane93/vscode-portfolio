@@ -34,6 +34,14 @@
   display: none;
 }
 
+.chartTitle {
+  margin-bottom: 2rem;
+}
+
+.titleSpacer {
+  padding: 20px;
+}
+
 .user > div {
   display: flex;
   flex-wrap: wrap;
@@ -97,6 +105,15 @@
 
   .chartContainer::-webkit-scrollbar {
     display: none;
+  }
+
+  .chartTitle {
+    font-size: 1.65rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .titleSpacer {
+    padding: 16px;
   }
 
   .chart {
