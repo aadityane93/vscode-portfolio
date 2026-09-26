@@ -8,6 +8,7 @@ import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
   const router = useRouter();
+  const hideMobileScrollbar = ['/', '/resume'].includes(router.pathname);
 
   return (
     <>
@@ -17,7 +18,7 @@ const Layout = ({ children }) => {
         <Explorer />
         <div style={{ width: '100%' }}>
           <Tabsbar />
-          <main className={`${styles.content} ${router.pathname === '/' ? styles.homeContent : ''}`}>
+          <main className={`${styles.content} ${hideMobileScrollbar ? styles.mobileScrollbarHidden : ''}`}>
             {children}
           </main>
         </div>

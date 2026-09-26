@@ -62,12 +62,12 @@
     padding: 2rem 1rem;
   }
 
-  .homeContent {
+  .mobileScrollbarHidden {
     scrollbar-width: none;
     -ms-overflow-style: none;
   }
 
-  .homeContent::-webkit-scrollbar {
+  .mobileScrollbarHidden::-webkit-scrollbar {
     display: none;
     width: 0;
     height: 0;
