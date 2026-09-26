@@ -8,6 +8,32 @@
   margin-bottom: 1.5rem;
 }
 
+.page {
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 600px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+.chartContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.chart {
+  display: block;
+  width: 675px;
+  height: 400px;
+  max-width: 100%;
+  border: 0;
+  margin: 0 auto;
+}
+
+.mobileChart {
+  display: none;
+}
+
 .user > div {
   display: flex;
   flex-wrap: wrap;
@@ -49,6 +75,41 @@
 }
 
 @media screen and (max-width: 600px) {
+  .page {
+    margin: -2rem -1rem 0;
+    padding-top: 0;
+  }
+
+  .avatar {
+    max-width: 100%;
+  }
+
+  .chartContainer {
+    width: 100%;
+    height: 400px;
+    margin-left: 0;
+    margin-right: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .chartContainer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chart {
+    display: none;
+  }
+
+  .mobileChart {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: none;
+  }
+
   .user h3 {
     font-size: 14px;
   }

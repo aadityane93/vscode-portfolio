@@ -1,17 +1,33 @@
+import { useEffect, useRef } from 'react';
+import styles from '../styles/GithubPage.module.css';
+
 const GithubPage = () => {
+  const chartContainerRef = useRef(null);
+
+  const showLatestContributions = () => {
+    if (typeof window === 'undefined' || !window.matchMedia('(max-width: 600px)').matches) {
+      return;
+    }
+
+    const chartContainer = chartContainerRef.current;
+    if (chartContainer) {
+      chartContainer.scrollLeft = chartContainer.scrollWidth;
+    }
+  };
+
+  useEffect(() => {
+    if (window.matchMedia('(max-width: 600px)').matches && chartContainerRef.current) {
+      chartContainerRef.current.scrollLeft = chartContainerRef.current.scrollWidth;
+    }
+  }, []);
 
   return (
     <>
-      <div style={{ 
-        padding: '40px 20px',
-        textAlign: 'center',
-        minHeight: '600px',
-        backgroundColor: '#0d1117',
-        color: '#c9d1d9'
-      }}>
+      <div className={styles.page}>
         <div>
           <a href="https://github.com/aadityane93" target="_blank" rel="noopener noreferrer">
             <img 
+              className={styles.avatar}
               style={{ height: 'auto' }} 
               alt="" 
               src="https://avatars.githubusercontent.com/u/29502306?v=4" 
@@ -24,17 +40,20 @@ const GithubPage = () => {
         </div>
         <div style={{ padding: '20px' }}></div>
         <h1 style={{ marginBottom: '2rem' }}>GitHub Contributions</h1>
-        <div style={{ marginLeft: '7rem' }}>
+        <div ref={chartContainerRef} className={styles.chartContainer}>
           
         <iframe 
+          className={styles.chart}
           src="https://ghchart.rshah.org/aadityane93" 
-          style={{ 
-            border: 0, 
-            width: '100%',
-            height: '400px', 
-            maxWidth: '800px'
-          }} 
+          title="GitHub contributions chart"
+          onLoad={showLatestContributions}
         ></iframe>
+        <img
+          className={styles.mobileChart}
+          src="https://ghchart.rshah.org/aadityane93"
+          alt="GitHub contributions chart"
+          onLoad={showLatestContributions}
+        />
         
       </div>
       
