@@ -39,7 +39,7 @@ const GithubPage = () => {
           </a>
         </div>
         <div style={{ padding: '20px' }}></div>
-        <h1 style={{ marginBottom: '2rem' }}>GitHub Contributions</h1>
+        <h1 className={styles.chartTitle}>GitHub Contributions</h1>
         <div ref={chartContainerRef} className={styles.chartContainer}>
           
         <iframe 
