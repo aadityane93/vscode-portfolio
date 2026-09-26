@@ -8,7 +8,7 @@ import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
   const router = useRouter();
-  const hideMobileScrollbar = ['/', '/resume'].includes(router.pathname);
+  const hideMobileScrollbar = ['/', '/resume', '/github'].includes(router.pathname);
   const isResumePage = router.pathname === '/resume';
 
   return (
