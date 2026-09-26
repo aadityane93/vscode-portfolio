@@ -62,6 +62,11 @@
     padding: 2rem 1rem;
   }
 
+  .resumeContent {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .mobileScrollbarHidden {
     scrollbar-width: none;
     -ms-overflow-style: none;

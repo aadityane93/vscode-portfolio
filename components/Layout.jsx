@@ -9,6 +9,7 @@ import styles from '../styles/Layout.module.css';
 const Layout = ({ children }) => {
   const router = useRouter();
   const hideMobileScrollbar = ['/', '/resume'].includes(router.pathname);
+  const isResumePage = router.pathname === '/resume';
 
   return (
     <>
@@ -18,7 +19,7 @@ const Layout = ({ children }) => {
         <Explorer />
         <div style={{ width: '100%' }}>
           <Tabsbar />
-          <main className={`${styles.content} ${hideMobileScrollbar ? styles.mobileScrollbarHidden : ''}`}>
+          <main className={`${styles.content} ${hideMobileScrollbar ? styles.mobileScrollbarHidden : ''} ${isResumePage ? styles.resumeContent : ''}`}>
             {children}
           </main>
         </div>
