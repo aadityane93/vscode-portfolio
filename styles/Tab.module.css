@@ -14,6 +14,10 @@
   margin-left: 5px;
 }
 
+.mobileFilename {
+  display: none;
+}
+
 .active {
   border-top: 1px solid var(--accent-color);
   background: var(--tab-active-bg);
@@ -28,6 +32,79 @@
 
 @media screen and (max-width: 600px) {
   .tab {
-    font-size: 1.1rem;
+    width: 100%;
+    min-width: 0;
+    height: 26px;
+    min-height: 26px;
+    justify-content: center;
+    padding: 0.35rem 0.35rem;
+    font-size: clamp(0.62rem, 3vw, 0.72rem);
+    font-weight: 600;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+    position: relative;
+    isolation: isolate;
+  }
+
+  .tab::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0 1%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    background: linear-gradient(145deg, var(--tab-active-bg), var(--tab-bg));
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    transform: skewX(12deg);
+    transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .tab img {
+    width: 14px;
+    height: 14px;
+    flex: 0 0 14px;
+  }
+
+  .tab p {
+    min-width: 0;
+    margin-left: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .filename {
+    display: none;
+  }
+
+  .mobileFilename {
+    display: block;
+  }
+
+  .active {
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: 2;
+  }
+
+  .active::after {
+    border-color: var(--accent-color);
+    background: linear-gradient(145deg, var(--tab-active-bg), var(--sidebar-bg));
+    box-shadow: 0 0 0 1px var(--accent-color), 0 5px 14px rgba(0, 0, 0, 0.38);
+    transform: skewX(12deg) scaleX(1.03);
+  }
+
+  .tab:not(.active):hover::after {
+    border-color: var(--accent-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.28);
+    transform: skewX(12deg) translateY(-1px);
+  }
+
+  .tab:active::after {
+    transform: skewX(12deg) scale(0.97);
   }
 }
