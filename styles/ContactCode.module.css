@@ -16,6 +16,10 @@
   text-decoration: none;
 }
 
+.mobileLink {
+  display: none;
+}
+
 .code a:hover {
   text-decoration: underline;
 }
@@ -28,5 +32,21 @@
   .code {
     font-size: 0.85rem;
     line-height: 1.5rem;
+  }
+
+  .desktopLink {
+    display: none;
+  }
+
+  .mobileLink {
+    display: inline;
+  }
+
+  .socialLine {
+    font-size: 0.753rem;
+  }
+
+  .socialsHeader {
+    transform: translateX(-5px);
   }
 }
