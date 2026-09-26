@@ -319,3 +319,82 @@
   transition: all 0.2s;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    height: auto;
+    min-height: 75vh;
+  }
+
+  .foreground {
+    text-align: left;
+  }
+
+  .foreground > .content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 0.5rem;
+    row-gap: 0.25rem;
+    align-items: baseline;
+    padding: 0.5rem;
+  }
+
+  .name {
+    grid-column: 1 / -1;
+    text-align: left;
+    font-size: clamp(1.5rem, 7vw, 2.25rem);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .bio {
+    grid-column: 1 / -1;
+    width: max-content;
+    max-width: 100%;
+    font-size: clamp(0.55rem, calc(3.6vw - 1.92px), 1rem);
+    line-height: 1.25;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .foreground > .content > .cardContainer {
+    grid-column: 1 / -1;
+  }
+
+  .foreground > .content > a {
+    justify-self: start;
+  }
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    margin: 1rem 0;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .card .content {
+    padding: 0.75rem;
+  }
+
+  .card .content > h4 {
+    margin: 0.5rem 0;
+  }
+
+  .card .content > h4:nth-of-type(2) {
+    display: none;
+  }
+
+  .tags {
+    margin: 0.25rem 0;
+  }
+
+  .tags span {
+    margin: 0.25rem 0.35rem 0.1rem 0;
+    padding: 0.18rem 0.45rem;
+    font-size: 0.68rem;
+  }
+}
+
