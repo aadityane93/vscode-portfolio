@@ -38,7 +38,7 @@ const GithubPage = () => {
             <u>Github.com/aadityane93</u>
           </a>
         </div>
-        <div style={{ padding: '20px' }}></div>
+        <div className={styles.titleSpacer}></div>
         <h1 className={styles.chartTitle}>GitHub Contributions</h1>
         <div ref={chartContainerRef} className={styles.chartContainer}>
           
